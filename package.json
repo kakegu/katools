@@ -1,0 +1,20 @@
+{
+  "name": "katools",
+  "version": "0.0.1",
+  "description": "A Utility Library of TypeScript & JavaScript",
+  "main": "dist/index.js",
+  "repository": "https://github.com/kakegu/katools.git",
+  "author": "Kake Gu",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "@types/node": "^14.0.1"
+  }
+}
