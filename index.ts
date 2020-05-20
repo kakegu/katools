@@ -1,5 +1,6 @@
-import { TypeCasting } from './src/TypeCasting';
+import { TypeCasting, eFromMethod } from './src/TypeCasting';
 
 export {
+  eFromMethod,
   TypeCasting
 }
